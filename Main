@@ -1,0 +1,11 @@
+int1 = 12345
+float1 = 1.2
+string1 = "hello"
+list1 = [1,2,3.4,"five"]
+tuple1 = [6,7,8,9,"nine"]
+dic1 = {1:"one","two":2}
+
+print(int1,' ',float1,' ',string1, '\n ')
+print(list1)
+print(tuple1)
+print(dic1)
