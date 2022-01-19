@@ -1,0 +1,18 @@
+list1 = []
+
+print("Enter name")
+list1.append(input())
+
+print("Enter gender")
+list1.append(input())
+
+print("Enter age")
+list1.append(input())
+
+print("Enter email")
+list1.append(input())
+
+print("Enter address")
+list1.append(input())
+
+print(list1)
