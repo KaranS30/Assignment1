@@ -1,0 +1,43 @@
+#defining variables
+int1 = int
+float1 = float
+string1 = ""
+list1 = []
+
+#defining functions
+def inputdata():
+  print("Enter a integer: ")
+  int1 = input()
+  print("Enter a float ")
+  float1 = input()
+  print("Enter a string ")
+  string1 = input()
+  print("Enter a list of 3 elements ")
+  for i in range(3):
+  	list1.append(input())
+  print("\n\n")
+
+def print1():
+  print("The integer is ", int1)
+  print("\n")
+  print("The float is ", float1)
+  print("\n")
+  print("The string is ", string1)
+  print("\n")
+  print("The list is ", list1)
+  print("\n\n")
+
+def print2():
+  print(f"The integer is {int1} and the float is {float1} and the string is {string1} and the list is {list1} ")
+
+def searchlist():
+	print("Enter 2 numbers to print the position in the list: \n")
+	a = int(input())
+	b = int(input())
+	print(f"Number at {a} is {list1[a]} and number at {b} is {list1[b]} in the list")
+
+ #Calling functions
+inputdata()
+print1()
+print2()
+searchlist()
